@@ -13,8 +13,11 @@ A quarter's worth of orders from a fictitious restaurant serving international c
 
 The main data available to us:
     - Sales data for the first quarter of 2023 only. 
+    
     - The ID of each order
+    
     - The date and time of each order 
+    
     - The price of each dish.
 
 With all the data available, let's see what relevant information we can extract. 
@@ -23,13 +26,20 @@ With all the data available, let's see what relevant information we can extract.
 
 Table Menu_items : 
     - menu_item_id : Unique ID of a menu item
+    
     - item_name : Name of a menu item
+    
     - category : Category or type of cuisine of the menu item
+    
     - price : Price of the menu item (US Dollars $)
 
 Table Order_details :
     - order_details_id : Unique ID of an item in an order
+    
     - order_id : ID of an order
+    
     - order_date - Date an order was put in (MM/DD/YY)
+    
     - order_time - Time an order was put in (HH:MM:SS AM/PM)
+    
     - item_id : Matches the menu_item_id in the menu_items table
