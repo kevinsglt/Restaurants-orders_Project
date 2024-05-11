@@ -12,6 +12,7 @@ The dataset comes from mavenanalytics : https://mavenanalytics.io/data-playgroun
 A quarter's worth of orders from a fictitious restaurant serving international cuisine, including the date and time of each order, the items ordered, and additional details on the type, name and price of the items.
 
 The main data available to us:
+
     - Sales data for the first quarter of 2023 only. 
     
     - The ID of each order
@@ -25,6 +26,7 @@ With all the data available, let's see what relevant information we can extract.
 # Dataset Glossary : 
 
 Table Menu_items : 
+
     - menu_item_id : Unique ID of a menu item
     
     - item_name : Name of a menu item
@@ -34,6 +36,7 @@ Table Menu_items :
     - price : Price of the menu item (US Dollars $)
 
 Table Order_details :
+
     - order_details_id : Unique ID of an item in an order
     
     - order_id : ID of an order
